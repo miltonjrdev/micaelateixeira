@@ -23,9 +23,9 @@ export const Banner = () => {
         </div>
         <div className="w-full sm:w-1/2">
           <img
-            className="w-full rounded-full shadow-xl"
+            className="w-full" 
             alt="image-banner"
-            src="/images/photo.png"
+            src="/images/banner.png"
           />
         </div>
       </div>
