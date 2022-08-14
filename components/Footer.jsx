@@ -10,7 +10,7 @@ import { FaFacebook } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer>
-      <div className="footer bg-gray-50 h-1/2 w-full pb-8">
+      <div className="footer bg-gray-50 h-1/2 w-full pb-8 pl-4">
         <div className="container flex md:flex-row flex-col justify-between items-start mx-auto">
           <div className="py-5">
             <img src="/logo.png" class="mr-3 h-6 sm:h-10" alt="logo" />
@@ -42,7 +42,7 @@ const Footer = () => {
                   </a>
                 </div>
                 <div className="text-2x1 cursor-pointer hover:text-rose">
-                  <a href=" " target="blank">
+                  <a href="https://www.facebook.com/profile.php?id=100082863758119">
                     <FaFacebook icon={FaFacebook} />
                   </a>
                 </div>
