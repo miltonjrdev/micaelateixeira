@@ -15,22 +15,20 @@ const Footer = () => {
           <div className="py-5">
             <img src="/logo.png" className="mr-3 h-6 sm:h-10" alt="logo" />
           </div>
-          <div className="py-5">
-            <ul>
-              <h3 className="text-gray-600 text-lg font-semibold pb-6">
-                Navegue
-              </h3>
-              <Link href="/">
-                <li className="text-gray-500 text-md pb-2 font-semibold hover:text-rose cursor-pointer">
-                  Início
-                </li>
-              </Link>
-              <Link href="/blog">
-                <li className="text-gray-500 text-md pb-2 font-semibold hover:text-rose cursor-pointer">
-                  Agendamentos
-                </li>
-              </Link>
-            </ul>
+          <div className="flex flex-col py-5">
+            <h3 className="text-gray-600 text-lg font-semibold pb-6">
+              Navegue
+            </h3>
+            <Link href="/" passHref>
+              <a className="text-gray-500 text-md pb-2 font-semibold hover:text-rose cursor-pointer">
+                Início
+              </a>
+            </Link>
+            <Link href="/blog" passHref>
+              <a className="text-gray-500 text-md pb-2 font-semibold hover:text-rose cursor-pointer">
+                Agendamentos
+              </a>
+            </Link>
           </div>
           <div className="py-5">
             <ul>
@@ -39,32 +37,48 @@ const Footer = () => {
               </p>
               <div className="flex gap-6">
                 <div className="text-2x1 cursor-pointer hover:text-rose">
-                  <a href="https://www.instagram.com/studiomicaelateixeira/">
-                    <FaInstagram />
-                  </a>
+                  <Link
+                    href="https://www.instagram.com/studiomicaelateixeira/"
+                    passHref
+                  >
+                    <a>
+                      <FaInstagram />
+                    </a>
+                  </Link>
                 </div>
                 <div className="text-2x1 cursor-pointer hover:text-rose">
-                  <a href="https://www.facebook.com/profile.php?id=100082863758119">
-                    <FaFacebook />
-                  </a>
+                  <Link
+                    href="https://www.facebook.com/profile.php?id=100082863758119"
+                    passHref
+                  >
+                    <a>
+                      <FaFacebook />
+                    </a>
+                  </Link>
                 </div>
                 <div
                   className="text-2x1 cursor-pointer hover:text-rose"
                   target="blank"
                 >
-                  <a href="/">
-                    <FaTwitter />
-                  </a>
+                  <Link href="https://www.twitter.com" passHref>
+                    <a>
+                      <FaTwitter />
+                    </a>
+                  </Link>
                 </div>
                 <div className="text-2x1 cursor-pointer hover:text-rose">
-                  <a href="/">
-                    <FaLinkedin />
-                  </a>
+                  <Link href="https://www.linkedin.com" passHref>
+                    <a>
+                      <FaLinkedin />
+                    </a>
+                  </Link>
                 </div>
                 <div className="text-2x1 cursor-pointer hover:text-rose">
-                  <a href="/">
-                    <FaYoutube />
-                  </a>
+                  <Link href="https://www.youtube.com" passHref>
+                    <a>
+                      <FaYoutube />
+                    </a>
+                  </Link>
                 </div>
               </div>
             </ul>
