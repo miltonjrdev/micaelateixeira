@@ -22,7 +22,7 @@ export const Banner = () => {
           </Link>
         </div>
         <div className="w-full sm:w-1/2">
-          <img className="w-full" alt="image-banner" src="/images/banner.png" />
+          <img className="w-full" alt="banner" src="../images/banner.png" />
         </div>
       </div>
     </div>
