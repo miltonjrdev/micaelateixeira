@@ -10,14 +10,16 @@ import { FaFacebook } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer>
-      <div className="footer bg-gray-50 h-1/2 w-full pb-8 pl-4">
+      <div className="footer bg-gray-50 h-1/2 w-full py-6 pl-4">
         <div className="container flex md:flex-row flex-col justify-between items-start mx-auto">
           <div className="py-5">
-            <img src="/logo.png" class="mr-3 h-6 sm:h-10" alt="logo" />
+            <img src="/logo.png" className="mr-3 h-6 sm:h-10" alt="logo" />
           </div>
           <div className="py-5">
             <ul>
-              <h3 className="text-lg pb-6">Navegue</h3>
+              <h3 className="text-gray-600 text-lg font-semibold pb-6">
+                Navegue
+              </h3>
               <Link href="/">
                 <li className="text-gray-500 text-md pb-2 font-semibold hover:text-rose cursor-pointer">
                   Início
@@ -25,43 +27,43 @@ const Footer = () => {
               </Link>
               <Link href="/blog">
                 <li className="text-gray-500 text-md pb-2 font-semibold hover:text-rose cursor-pointer">
-                  Blog
+                  Agendamentos
                 </li>
               </Link>
             </ul>
           </div>
           <div className="py-5">
             <ul>
-              <p className="text-lg pb-6">
-                <span>Acompanhe nas redes:</span>
+              <p className="text-gray-600 text-lg font-semibold pb-6">
+                <span>Acompanhe nas redes sociais</span>
               </p>
               <div className="flex gap-6">
                 <div className="text-2x1 cursor-pointer hover:text-rose">
                   <a href="https://www.instagram.com/studiomicaelateixeira/">
-                    <FaInstagram icon={FaInstagram} />
+                    <FaInstagram />
                   </a>
                 </div>
                 <div className="text-2x1 cursor-pointer hover:text-rose">
                   <a href="https://www.facebook.com/profile.php?id=100082863758119">
-                    <FaFacebook icon={FaFacebook} />
+                    <FaFacebook />
                   </a>
                 </div>
                 <div
                   className="text-2x1 cursor-pointer hover:text-rose"
                   target="blank"
                 >
-                  <a href=" " target="blank">
-                    <FaTwitter icon={FaTwitter} />
+                  <a href="/">
+                    <FaTwitter />
                   </a>
                 </div>
                 <div className="text-2x1 cursor-pointer hover:text-rose">
-                  <a href=" " target="blank">
-                    <FaLinkedin icon={FaLinkedin} />
+                  <a href="/">
+                    <FaLinkedin />
                   </a>
                 </div>
                 <div className="text-2x1 cursor-pointer hover:text-rose">
-                  <a href=" " target="blank">
-                    <FaYoutube icon={FaYoutube} />
+                  <a href="/">
+                    <FaYoutube />
                   </a>
                 </div>
               </div>
