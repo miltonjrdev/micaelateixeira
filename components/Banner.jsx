@@ -1,19 +1,9 @@
 import React from "react";
+import homeData from "../data/homeData";
 
 import Link from "next/dist/client/link";
 
-const homeData = {
-  title: "Micaela Teixeira",
-  description:
-    "Cuidar do nosso visual é uma das coisas mais importantes para nos sentirmos bem, por isso venha agendar um atendimento e me permita cuidar do seu.",
-  cta: {
-    title: "Agende seu atendimento",
-    href: "https://buk.pt/studiomicaela-teixeira",
-  },
-  imageURL: "/images/banner.png",
-};
-
-export const Banner = () => {
+const Banner = ({ title, description, cta, imageURL }) => {
   return (
     <div className="banner bg-rose w-full">
       <div className="container flex sm:flex-row flex-col justify-between items-center mx-auto">
