@@ -15,7 +15,7 @@ const Banner = ({ title, description, cta, imageURL }) => {
             {homeData.description}
           </p>
           <Link href={homeData.cta.href} passHref>
-            <a className="text-white py-3 px-8 border-2 rounded-full cursor-pointer hover:text-rose hover:bg-white">
+            <a className="text-white py-3 px-8 border-2 rounded-full cursor-pointer hover:text-rose  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-white duration-100">
               {homeData.cta.title}
             </a>
           </Link>

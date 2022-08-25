@@ -6,7 +6,7 @@ import Card from "./Card";
 export const Posts = () => {
   return (
     <div className="banner py-8 bg-rose w-full">
-      <div className="container flex sm:flex-row flex-col justify-between items-center mx-auto">
+      <div className="container flex flex-wrap sm:flex-row flex-col justify-center items-center mx-auto">
         {services.map((service) => (
           <Card key={service.id} {...service} />
         ))}

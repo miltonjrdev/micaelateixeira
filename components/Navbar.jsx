@@ -8,7 +8,7 @@ export const Navbar = () => {
         <Link href="/" passHref>
           <a className="flex items-center">
             <img src="/logo.png" className="mr-3 h-6 sm:h-10" alt="logo" />
-            <span className="self-center text-xl font-semibold whitespace-nowrap text-rose">
+            <span className="self-center text-lg font-semibold whitespace-nowrap text-rose">
               Micaela Teixeira
             </span>
           </a>
