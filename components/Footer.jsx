@@ -29,6 +29,11 @@ const Footer = () => {
                 Agendamentos
               </a>
             </Link>
+            <Link href="/services" passHref>
+              <a className="text-gray-500 text-md pb-2 font-semibold hover:text-rose cursor-pointer">
+                Serviços
+              </a>
+            </Link>
           </div>
           <div className="py-5">
             <ul>
