@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = ({ image, title, text }) => {
   return (
-    <div className="container flex bg-white rounded-xl shadow-md overflow-hidden w-4/5">
+    <div className="container flex bg-white rounded-xl shadow-md overflow-hidden w-4/5 mb-5">
       <div className="md:flex">
         <div className="md:shrink-0">
           <img
@@ -15,7 +15,7 @@ const Card = ({ image, title, text }) => {
           <h2 className="text-2xl sm:text-start text-center font-semibold">
             {title}
           </h2>
-          <p class="text-md text-black text-justify mt-2">{text}</p>
+          <p className="text-md text-black text-justify mt-2">{text}</p>
         </div>
       </div>
     </div>

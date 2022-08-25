@@ -19,9 +19,9 @@ export const Navbar = () => {
               className="w-6 h-6 text-rose"
               x-show="!showMenu"
               fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
               viewBox="0 0 24 24"
               stroke="currentColor"
             >
@@ -58,7 +58,7 @@ export const Navbar = () => {
             <li>
               <Link href="/" passHref>
                 <a className="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-rose md:p-0 dark:text-gray-400 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">
-                  Agende seu atendimento
+                  Contato
                 </a>
               </Link>
             </li>
