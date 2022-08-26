@@ -108,7 +108,7 @@ const Contact5 = () => {
               {/* ::Title Contact Us */}
               <h2 className="text-3xl">Deseja falar conosco?</h2>
               {/* ::Text */}
-              <p className="text-sm text-gray-600">
+              <p className="text-sm text-gray-600 text-justify">
                 Estamos localizados em uma das áreas mais sofisticadas da
                 cidade. A região é de fácil acesso e segura para que você possa
                 transitar sem maiores problemas, além de possuir estacionamento
