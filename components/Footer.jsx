@@ -24,9 +24,9 @@ const Footer = () => {
                 Início
               </a>
             </Link>
-            <Link href="https://buk.pt/studiomicaela-teixeira" passHref>
+            <Link href="/contato" passHref>
               <a className="text-gray-500 text-md pb-2 font-semibold hover:text-rose cursor-pointer">
-                Agendamentos
+                Contato
               </a>
             </Link>
             <Link href="/services" passHref>
