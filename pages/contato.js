@@ -163,8 +163,8 @@ const Contact5 = () => {
             </div>
           </div>
         </div>
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 };
