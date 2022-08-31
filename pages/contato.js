@@ -121,12 +121,12 @@ const Contact5 = () => {
                 className="inline-flex items-center text-sm text-rose font-semibold hover:text-gray-400"
               >
                 <MailIcon className="mr-2 w-6 text-gray-300" />
-                studiomicaelateixeira@gmail.com
+                micaelateixeira.pt@gmail.com
               </a>
               {/* ::Address */}
               <p className="text-sm text-gray-600 leading-6">
-                Av. Da República 2411 SL Esq / Vila Nova de Gaia, <br />{" "}
-                4430-207 - Vila Nova de Gaia <br /> Portugal
+                Av. Da República 2411 SL Esq / Vila Nova de Gaia <br /> 4430-207
+                - Vila Nova de Gaia <br /> Portugal
               </p>
               {/* ::Socials */}
               <div className="flex items-center">
