@@ -29,7 +29,7 @@ const Footer = () => {
                 Contato
               </a>
             </Link>
-            <Link href="/services" passHref>
+            <Link href="/servicos" passHref>
               <a className="text-gray-500 text-md pb-2 font-semibold hover:text-rose cursor-pointer">
                 Serviços
               </a>
