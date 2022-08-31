@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+
 import { MailIcon } from "@heroicons/react/outline";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
@@ -36,11 +37,7 @@ const Contact5 = () => {
 
           {/* :CONTACT FORM CONTAINER */}
           <div className="order-3 md:order-2 col-span-full md:col-span-1 py-5 md:py-10 px-6">
-            <form
-              action=""
-              className="mx-auto max-w-xl space-y-4"
-              onSubmit={handleSubmit}
-            >
+            <form action="" className="mx-auto max-w-xl space-y-4">
               {/* ::Name Input */}
               <div className="sm:pt-2">
                 {/* :::label */}
@@ -53,7 +50,7 @@ const Contact5 = () => {
                   type="text"
                   id="name"
                   name="name"
-                  placeholder=" Nome"
+                  placeholder=" Digite seu nome"
                   className="form-input w-full block shadow-sm rounded border border-gray-300 bg-gray-100 text-base placeholder-gray-300 py-1"
                 />
               </div>
@@ -69,7 +66,7 @@ const Contact5 = () => {
                   type="email"
                   id="email"
                   name="email"
-                  placeholder=" E-mail"
+                  placeholder=" Digite seu e-mail"
                   className="form-input w-full block shadow-sm rounded border border-gray-300 bg-gray-100 text-base placeholder-gray-300 py-1"
                 />
               </div>
@@ -117,7 +114,7 @@ const Contact5 = () => {
               </p>
               {/* ::Email contact */}
               <a
-                href="#mail"
+                href="https://www.gmail.com"
                 className="inline-flex items-center text-sm text-rose font-semibold hover:text-gray-400"
               >
                 <MailIcon className="mr-2 w-6 text-gray-300" />

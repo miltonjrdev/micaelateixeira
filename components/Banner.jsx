@@ -5,9 +5,9 @@ import Link from "next/dist/client/link";
 
 const Banner = ({ title, description, cta, imageURL }) => {
   return (
-    <div className="banner bg-rose w-full">
+    <div className="banner bg-rose w-full overflow-hidden">
       <div className="container flex sm:flex-row flex-col justify-between items-center mx-auto">
-        <div className="flex flex-row flex-wrap w-full sm:w-7/12 md:w-1/2 lg:w-1/3 pt-10 box-border px-3.5 self-center text-center sm:text-left justify-center sm:justify-start">
+        <div className="flex flex-row flex-wrap w-full sm:w-7/12 md:w-1/2 lg:w-1/3 pt-10 box-border px-3.5 self-center text-center sm:text-left justify-center sm:justify-start fade-up">
           <h1 className="text-white text-4xl w-full font-semibold pt-6 sm:pt-0">
             {homeData.title}
           </h1>
@@ -20,7 +20,7 @@ const Banner = ({ title, description, cta, imageURL }) => {
             </a>
           </Link>
         </div>
-        <div className="w-full sm:w-1/2">
+        <div className="w-full sm:w-1/2 fade-up">
           <img className="w-full" alt="" src={homeData.imageURL} />
         </div>
       </div>
