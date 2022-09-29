@@ -24,6 +24,8 @@ module.exports = {
     extend: {
       colors: {
         rose: "#ba6e70",
+        amber: "#efeae4",
+        orange: "#B99E82",
       },
     },
   },
