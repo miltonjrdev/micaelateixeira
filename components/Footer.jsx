@@ -10,10 +10,14 @@ import { FaFacebook } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer>
-      <div className="footer bg-rose h-1/2 w-full py-6 pl-4">
-        <div className="container flex md:flex-row flex-col justify-between items-start mx-auto">
+      <div className="footer bg-rose w-full py-4 pl-4 rounded-t-full">
+        <div className="container flex md:flex-row flex-col justify-center items-start mx-auto">
           <div className="py-5">
-            <img src="/logo2.png" className="mr-3 h-6 sm:h-10" alt="logo" />
+            <img
+              src="images/logo-footer.png"
+              className="mr-3 h-12 sm:h-10"
+              alt="logo"
+            />
           </div>
           <div className="py-5">
             <ul>
