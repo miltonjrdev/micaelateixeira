@@ -20,10 +20,10 @@ const Footer = () => {
           </div>
           <div className="py-5">
             <ul>
-              <p className="text-white text-sm sm:text-lg pb-6">
+              <p className="text-white text-sm sm:text-lg pb-4">
                 <span>Acompanhe nas redes sociais</span>
               </p>
-              <div className="flex gap-4">
+              <div className="flex gap-4 justify-center sm:justify-start">
                 <div className="text-2x1 text-white cursor-pointer hover:text-orange">
                   <Link
                     href="https://www.instagram.com/studiomicaelateixeira/"
