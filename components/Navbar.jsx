@@ -35,8 +35,11 @@ export const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link href=" ">
-                <a className="block py-2 pr-4 pl-3 text-orange rounded hover:bg-orange md:hover:bg-transparent md:border-0 md:hover:text-orange md:p-0">
+              <Link href="#about">
+                <a
+                  id="#about"
+                  className="block py-2 pr-4 pl-3 text-orange rounded hover:bg-orange md:hover:bg-transparent md:border-0 md:hover:text-orange md:p-0"
+                >
                   Sobre
                 </a>
               </Link>
@@ -49,8 +52,11 @@ export const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link href="/servicos">
-                <a className="block py-2 pr-4 pl-3 text-orange rounded hover:bg-orange md:hover:bg-transparent md:border-0 md:hover:text-orange md:p-0">
+              <Link href="#attendances">
+                <a
+                  id="#attendances"
+                  className="block py-2 pr-4 pl-3 text-orange rounded hover:bg-orange md:hover:bg-transparent md:border-0 md:hover:text-orange md:p-0"
+                >
                   Atendimentos
                 </a>
               </Link>

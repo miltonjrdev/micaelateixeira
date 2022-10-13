@@ -29,6 +29,7 @@ module.exports = {
         rose: "#ba6e70",
         amber: "#efeae4",
         orange: "#B99E82",
+        bege: "#dcc3c3",
       },
     },
   },

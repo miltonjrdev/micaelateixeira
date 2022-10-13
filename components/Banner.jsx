@@ -9,7 +9,7 @@ const Banner = () => {
           src="1.png"
           alt="profile"
         />
-        <div className=" ">
+        <div>
           <p className="sm:text-lg text-orange text-justify sm:text-start py-8 px-8 sm:py-0 sm:px-0">
             Cuidar do nosso visual é uma das coisas mais importantes para nos
             sentirmos bem, por isso venha agendar um atendimento e me permita
@@ -18,8 +18,7 @@ const Banner = () => {
           <p className="text-center text-rose text-2xl py-6">
             Micaela Teixeira
           </p>
-
-          <button className="text-white text-2xl bg-rose rounded-full  px-20 py-4 mb-8 ml-24 sm:ml-0">
+          <button className="bg-rose text-amber sm:text-2xl rounded-full px-12 sm:px-20 py-4 mb-8 ml-44 sm:ml-0 md:ml-0 lg:ml-0">
             <a href="https://buk.pt/studiomicaela-teixeira">Agendar</a>
           </button>
         </div>
