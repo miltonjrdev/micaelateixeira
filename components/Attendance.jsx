@@ -39,7 +39,7 @@ const Attendance = () => {
         <img className="rounded-3xl" src="/images/att3.png" alt="" />
         <img className="rounded-3xl" src="/images/att4.png" alt="" />
       </div>
-      <div className="mx-auto flex sm:flex-row flex-col sm:flex-row items-center w-full sm:w-1/2 py-12 space-x-5">
+      <div className="mx-auto flex sm:flex-row flex-col items-center w-full sm:w-1/2 py-12 space-x-5">
         <div id="about" className="">
           <p className="text-center text-amber text-4xl">SOBRE</p>
           <p className="text-center text-amber text-3xl">Micaela Teixeira</p>

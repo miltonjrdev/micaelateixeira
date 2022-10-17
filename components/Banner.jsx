@@ -18,7 +18,8 @@ const Banner = () => {
           <p className="text-center text-rose text-2xl py-6">
             Micaela Teixeira
           </p>
-          <button className="bg-rose text-amber sm:text-2xl rounded-full px-12 sm:px-20 py-4 mb-8 ml-44 sm:ml-0 md:ml-0 lg:ml-0">
+
+          <button className="bg-rose text-amber text-center sm:text-2xl rounded-full px-12 sm:px-20 py-4 mb-8">
             <a href="https://buk.pt/studiomicaela-teixeira">Agendar</a>
           </button>
         </div>

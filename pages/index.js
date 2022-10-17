@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Banner from "../components/Banner";
 import Attendance from "../components/Attendance";
+import Depositions from "../components/Depositions";
 
 export const Home = () => {
   return (
@@ -10,6 +11,7 @@ export const Home = () => {
       <Navbar />
       <Banner />
       <Attendance />
+      <Depositions />
       <Footer />
     </div>
   );
