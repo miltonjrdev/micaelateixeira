@@ -19,7 +19,7 @@ const Contact5 = () => {
   return (
     <div>
       <Navbar />
-      <div className="relative mx-auto w-full max-w-7xl bg-gray-50 text-gray-700 py-4">
+      <div className="relative mx-auto w-full max-w-7xl bg-amber text-gray-700 py-4">
         <div className="grid grid-cols-2">
           {/* :MAP CONTAINER */}
           <div className="order-1 col-span-full">
@@ -103,7 +103,7 @@ const Contact5 = () => {
           <div className="order-2 md:order-3 col-span-full md:col-span-1 py-5 md:py-10 px-6">
             <div className="mx-auto max-w-xl flex flex-col space-y-5">
               {/* ::Title Contact Us */}
-              <h2 className="text-3xl">Deseja falar conosco?</h2>
+              <h2 className="text-3xl text-rose">Deseja falar conosco?</h2>
               {/* ::Text */}
               <p className="text-sm text-gray-600 text-justify">
                 Estamos localizados em uma das áreas mais sofisticadas da
