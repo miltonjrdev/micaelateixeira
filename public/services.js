@@ -8,8 +8,8 @@ const services = [
   {
     id: "2",
     image: "/images/lift.png",
-    title: "Lifting",
-    text: "É usada para determinar cirurgias em que os tecidos precisam ser reacomodados aos lugares de origem. Quando falamos em lifting facial, compreendem-se as áreas das pálpebras, pescoço, mandíbula e a conhecida como T: nariz e testa.",
+    title: "Lifting de pestanas",
+    text: "O Lifting de pestanas é um tratamento feito às pestanas naturais com um gel, que as torna mais fortes, longas, curvadas e volumosas. Para além disto, tem ainda a opção de fazer uma pintura às suas pestanas de forma a destacá-las ainda mais.",
   },
 ];
 

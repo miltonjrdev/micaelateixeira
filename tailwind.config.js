@@ -22,8 +22,14 @@ module.exports = {
       // => @media (min-width: 1536px) { ... }
     },
     extend: {
+      backgroundImage: {
+        "banner-pattern": "url('/images/micaelabanner.png')",
+      },
       colors: {
         rose: "#ba6e70",
+        amber: "#efeae4",
+        orange: "#B99E82",
+        bege: "#dcc3c3",
       },
     },
   },

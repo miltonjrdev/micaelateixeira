@@ -1,27 +1,27 @@
 import React from "react";
-import homeData from "../data/homeData";
 
-import Link from "next/dist/client/link";
-
-const Banner = ({ title, description, cta, imageURL }) => {
+const Banner = () => {
   return (
-    <div className="banner bg-rose w-full">
-      <div className="container flex sm:flex-row flex-col justify-between items-center mx-auto">
-        <div className="flex flex-row flex-wrap w-full sm:w-7/12 md:w-1/2 lg:w-1/3 pt-10 box-border px-3.5 self-center text-center sm:text-left justify-center sm:justify-start">
-          <h1 className="text-white text-4xl w-full font-semibold pt-6 sm:pt-0">
-            {homeData.title}
-          </h1>
-          <p className="text-white pb-4 py-8 tracking-wide leading-relaxed">
-            {homeData.description}
+    <div className="bg-banner-pattern">
+      <div className="container mx-auto flex flex-col sm:flex-row items-center w-full sm:w-1/2">
+        <img
+          className="sm:max-w-xl sm:block pl-10 sm:pl-0"
+          src="1.png"
+          alt="profile"
+        />
+        <div>
+          <p className="sm:text-lg text-orange text-justify sm:text-start py-8 px-8 sm:py-0 sm:px-0">
+            Cuidar do nosso visual é uma das coisas mais importantes para nos
+            sentirmos bem, por isso venha agendar um atendimento e me permita
+            cuidar do seu.
           </p>
-          <Link href={homeData.cta.href} passHref>
-            <a className="text-white py-3 px-8 border-2 rounded-full cursor-pointer hover:text-rose  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-white duration-100">
-              {homeData.cta.title}
-            </a>
-          </Link>
-        </div>
-        <div className="w-full sm:w-1/2">
-          <img className="w-full" alt="" src={homeData.imageURL} />
+          <p className="text-center text-rose text-2xl py-6">
+            Micaela Teixeira
+          </p>
+
+          <button className="bg-rose text-amber text-center sm:text-2xl rounded-full px-12 sm:px-20 py-4 mb-8">
+            <a href="https://buk.pt/studiomicaela-teixeira">Agendar</a>
+          </button>
         </div>
       </div>
     </div>

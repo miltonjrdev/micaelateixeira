@@ -1,63 +1,41 @@
 import React from "react";
 
 import Link from "next/link";
-import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
+import { ImInstagram } from "react-icons/im";
+import { FaFacebookF } from "react-icons/fa";
+import { IoLogoWhatsapp } from "react-icons/io";
 
 const Footer = () => {
   return (
     <footer>
-      <div className="footer bg-gray-50 h-1/2 w-full py-6 pl-4">
-        <div className="container flex md:flex-row flex-col justify-between items-start mx-auto">
+      <div className="footer bg-rose w-full py-4 pl-4 rounded-t-3xl sm:rounded-t-full">
+        <div className="container flex flex-row justify-between items-start mx-auto px-8 sm:px-36">
           <div className="py-5">
-            <img src="/logo.png" className="mr-3 h-6 sm:h-10" alt="logo" />
-          </div>
-          <div className="flex flex-col py-5">
-            <h3 className="text-gray-600 text-lg font-semibold pb-6">
-              Navegue
-            </h3>
-            <Link href="/" passHref>
-              <a className="text-gray-500 text-md pb-2 font-semibold hover:text-rose cursor-pointer">
-                Início
-              </a>
-            </Link>
-            <Link href="https://buk.pt/studiomicaela-teixeira" passHref>
-              <a className="text-gray-500 text-md pb-2 font-semibold hover:text-rose cursor-pointer">
-                Agendamentos
-              </a>
-            </Link>
+            <img
+              src="images/logo-footer.png"
+              className="mr-3 h-12 sm:h-20"
+              alt="logo"
+            />
           </div>
           <div className="py-5">
             <ul>
-              <p className="text-gray-600 text-lg font-semibold pb-6">
+              <p className="text-white text-sm sm:text-lg pb-4">
                 <span>Acompanhe nas redes sociais</span>
               </p>
-              <div className="flex gap-6">
-                <div className="text-2x1 cursor-pointer hover:text-rose">
+              <div className="flex gap-4 justify-center sm:justify-start">
+                <div className="text-2x1 text-white cursor-pointer hover:text-orange">
                   <Link
                     href="https://www.instagram.com/studiomicaelateixeira/"
                     passHref
                   >
                     <a>
-                      <FaInstagram />
-                    </a>
-                  </Link>
-                </div>
-                <div className="text-2x1 cursor-pointer hover:text-rose">
-                  <Link
-                    href="https://www.facebook.com/profile.php?id=100082863758119"
-                    passHref
-                  >
-                    <a>
-                      <FaFacebook />
+                      <ImInstagram />
                     </a>
                   </Link>
                 </div>
                 <div
-                  className="text-2x1 cursor-pointer hover:text-rose"
+                  className="text-2x1 text-white cursor-pointer hover:text-orange"
                   target="blank"
                 >
                   <Link href="https://www.twitter.com" passHref>
@@ -66,17 +44,20 @@ const Footer = () => {
                     </a>
                   </Link>
                 </div>
-                <div className="text-2x1 cursor-pointer hover:text-rose">
-                  <Link href="https://www.linkedin.com" passHref>
+                <div className="text-2x1 text-white cursor-pointer hover:text-orange">
+                  <Link href="https://web.whatsapp.com/" passHref>
                     <a>
-                      <FaLinkedin />
+                      <IoLogoWhatsapp />
                     </a>
                   </Link>
                 </div>
-                <div className="text-2x1 cursor-pointer hover:text-rose">
-                  <Link href="https://www.youtube.com" passHref>
+                <div className="text-2x1 text-white cursor-pointer hover:text-orange">
+                  <Link
+                    href="https://www.facebook.com/profile.php?id=100082863758119"
+                    passHref
+                  >
                     <a>
-                      <FaYoutube />
+                      <FaFacebookF />
                     </a>
                   </Link>
                 </div>
@@ -85,8 +66,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col py-5 bg-rose items-center">
-        <h1 className="text-white text-sm text-center">
+      <div className="flex flex-col py-4 bg-rose items-center">
+        <h1 className="text-white text-xs sm:text-sm text-center">
           Studio Micaela Teixeira © 2022 . Todos os direitos reservados.
         </h1>
       </div>

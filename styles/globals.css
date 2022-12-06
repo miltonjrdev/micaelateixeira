@@ -4,7 +4,54 @@
 
 @layer base {
   html {
-    font-family: 'Poppins', sans-serif;
+    
+    font-family: 'Open Sans', sans-serif;
+    background: theme(colors.amber);
   }  
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translateX(40px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    scale: 0;
+  }
+  to {
+    opacity: 1;
+    scale: 100%;
+  }
+}
+
+.zoom-in {
+  animation: zoomIn ease-out;
+}
+
+.fade-up {
+  animation: fadeInUp 1.5s ease-out;
+}
+
+.fade-right {
+  animation: fadeInRight 1s ease-out;
 }
 
