@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import Banner from "../components/Banner";
 import Attendance from "../components/Attendance";
 import Depositions from "../components/Depositions";
+import Contact from "../components/Contact";
 
 export const Home = () => {
   return (
@@ -12,6 +13,7 @@ export const Home = () => {
       <Banner />
       <Attendance />
       <Depositions />
+      <Contact />
       <Footer />
     </div>
   );
