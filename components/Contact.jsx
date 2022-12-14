@@ -16,7 +16,7 @@ const Contact5 = () => {
 
   return (
     <div>
-      <div className="relative mx-auto w-full max-w-7xl bg-amber text-gray-700">
+      <div className="relative mx-auto w-full max-w-7x1 bg-amber text-gray-700">
         <div className="grid grid-cols-2">
           {/* :MAP CONTAINER */}
           <div className="order-3 md:order-2 col-span-full md:col-span-1 py-5 md:py-10 px-6">
