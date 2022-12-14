@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
 
 import { MailIcon } from "@heroicons/react/outline";
-import Navbar from "../components/Navbar";
 
 const Contact5 = () => {
   const nameRef = useRef();
@@ -17,98 +16,22 @@ const Contact5 = () => {
 
   return (
     <div>
-      <div className="relative w-full max-w-7xl bg-amber text-gray-700 py-4">
-        <div className="grid grid-cols-1">
+      <div className="relative mx-auto w-full max-w-7xl bg-amber text-gray-700">
+        <div className="grid grid-cols-2">
           {/* :MAP CONTAINER */}
-          <div className="order-2 col-span-full">
-            <iframe
-              width="40%"
-              height="170px"
-              className="mx-auto rounded-3xl mt-6 bg-rose"
-              loading="lazy"
-            />
-          </div>
-
-          <div className="grid grid-cols-1">
-            {/* :MAP CONTAINER */}
+          <div className="order-3 md:order-2 col-span-full md:col-span-1 py-5 md:py-10 px-6">
             <div className="order-1 col-span-full">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3005.7959560867184!2d-8.608301084354054!3d41.11714712066677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd247b8c35b07529%3A0x22be23d93a4b9883!2sStudio%20Micaela%20Teixeira!5e0!3m2!1spt-BR!2sbr!4v1661469126750!5m2!1spt-BR!2sbr"
                 title="map"
                 scrolling="no"
                 frameBorder="0"
-                width="40%"
-                height="170px"
-                className="mx-auto rounded-3xl"
+                width="100%"
+                height="300px"
+                className="rounded-lg"
                 loading="lazy"
               />
-            </div>
-          </div>
-
-          {/* :CONTACT FORM CONTAINER */}
-          <div className="container flex order-3 md:order-3 col-span-full md:col-span-1 py-5 md:py-10 px-6">
-            <form
-              action=""
-              className="mx-auto max-w-xs space-y-3 bg-rose rounded-3xl py-4"
-            >
-              <div className="sm:pt-2 px-4">
-                {/* :::label */}
-                <label htmlFor="name" className="sr-only">
-                  Name
-                </label>
-                {/* :::input */}
-                <input
-                  ref={nameRef}
-                  type="text"
-                  id="name"
-                  name="name"
-                  placeholder="Seu nome"
-                  className="form-input shadow-sm rounded-full border border-gray-300 bg-gray-100 text-base placeholder-rose py-2 px-12 text-center"
-                />
-              </div>
-              {/* ::Email Input */}
-              <div className="px-4">
-                {/* :::label */}
-                <label htmlFor="email" className="sr-only">
-                  Email
-                </label>
-                {/* :::input */}
-                <input
-                  ref={emailRef}
-                  type="email"
-                  id="email"
-                  name="email"
-                  placeholder="Seu e-mail"
-                  className="form-input shadow-sm rounded-full border border-gray-300 bg-gray-100 text-base placeholder-rose py-2 px-12 text-center"
-                />
-              </div>
-              {/* ::Message Input */}
-              <div className="col-span-full px-4">
-                {/* :::label */}
-                <label htmlFor="message" className="sr-only">
-                  Message
-                </label>
-                {/* :::input */}
-                <textarea
-                  ref={messageRef}
-                  name="message"
-                  id="message"
-                  cols="30"
-                  rows="4"
-                  placeholder="Sua mensagem!"
-                  className="form-input w-full block shadow-sm rounded-3xl border border-gray-300 bg-gray-100  text-base placeholder-rose py-2 text-center"
-                ></textarea>
-              </div>
-              {/* ::Submit Button */}
-            </form>
-            <div className="">
-              <button
-                type="submit"
-                className="mx-auto py-2 px-6 rounded-full bg-rose text-sm text-white"
-              >
-                Enviar
-              </button>
-            </div>
+            </div>{" "}
           </div>
 
           {/* :CONTACT INFOS CONTAINER */}
