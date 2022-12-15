@@ -7,33 +7,31 @@ const Attendance = () => {
       <div className="container flex flex-col justify-center items-center mx-auto border border-red-500">
         <h2 className="pb-2 text-amber">ATENDIMENTOS</h2>
           <div className="text-amber flex text-2xl sm:text-6xl text-center">
-            <div className="flex py-4 justify-center space-x-2">
-              <button className="text-white text-xs bg-bege rounded-full h-10 w-32 hover:bg-orange transition-all duration-300">
+            <div className="grid grid-cols-6 gap-5 py-4 space-x-2 border border-red-500">
+              <button className="col-span-2 text-white text-xs bg-bege rounded-full h-10 w-32 hover:bg-orange transition-all duration-300">
                 <a href="">Threading de Sobrancelhas</a>
               </button>
-              <button className="text-white text-xs justify-center bg-bege rounded-full h-10 w-32 mr-2 ml-2 hover:bg-orange transition-all duration-300">
+              <button className="col-span-2 text-white text-xs bg-bege rounded-full h-10 w-32 hover:bg-orange transition-all duration-300">
                 <a href="">Extensão de Pestanas</a>
               </button>
-              <button className="text-white text-xs justify-center bg-bege rounded-full h-10 w-32 hover:bg-orange transition-all duration-300">
+              <button className="col-span-2 text-white text-xs bg-bege rounded-full h-10 w-32 hover:bg-orange transition-all duration-300">
                 <a href="">Lifting de pestanas</a>
               </button>
-            </div>
-            <div className="flex flex-wrap justify-center space-x-2">
-              <button className="text-white text-xs bg-bege rounded-full h-10 w-32 hover:bg-orange transition-all duration-300">
+              <button className="col-span-2 text-white text-xs bg-bege rounded-full h-10 w-32 hover:bg-orange transition-all duration-300">
                 <a href="">Depilação</a>
               </button>
-              <button className="text-white text-xs bg-bege rounded-full h-10 w-32 mr-2 ml-2 hover:bg-orange transition-all duration-300">
+              <button className="col-span-2 text-white text-xs bg-bege rounded-full h-10 w-32 hover:bg-orange transition-all duration-300">
                 <a href="">Limpeza facial</a>
               </button>
-              <button className="text-white text-xs bg-bege rounded-full h-10 w-32 hover:bg-orange transition-all duration-300">
+              <button className="col-span-2 text-white text-xs bg-bege rounded-full h-10 w-32 hover:bg-orange transition-all duration-300">
                 <a href="">Massagem Modeladora</a>
               </button>
             </div>
             <div className="py-5">
               <img className="h-64" src="/images/attendance.png" alt="attendance" />
-          </div>
+            </div>
         </div>
-        <div className="flex mx-auto w-24 sm:w-48 h-24 sm:h-36 justify-center space-x-20">
+        <div className="flex mx-auto w-24 sm:w-48 h-24 sm:h-36 justify-center space-x-5">
           <img className="rounded-3xl hover:opacity-95 hover:scale-105 transition-all duration-300" src="/images/att1.png" alt="" />
           <img className="rounded-3xl hover:opacity-95 hover:scale-105 transition-all duration-300" src="/images/att2.png" alt="" />
           <img className="rounded-3xl hover:opacity-95 hover:scale-105 transition-all duration-300" src="/images/att3.png" alt="" />
