@@ -29,7 +29,7 @@ export const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link href="/servicos" passHref>
+              <Link href="#attendances" passHref>
                 <a className="block py-2 pr-4 pl-3 text-orange rounded md:border-0 md:hover:text-rose md:p-0 hover:text-rose transition-all duration-300">
                   Serviços
                 </a>
@@ -46,7 +46,7 @@ export const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link href="/servicos">
+              <Link href="#depositions">
                 <a className="block py-2 pr-4 pl-3 text-orange rounded md:border-0 md:hover:text-rose md:p-0 hover:text-rose transition-all duration-300">
                   Depoimentos
                 </a>
@@ -63,7 +63,7 @@ export const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link href="/contato" passHref>
+              <Link href="#contact" passHref>
                 <a className="block py-2 pr-4 pl-3 text-orange rounded md:border-0 md:hover:text-rose md:p-0 hover:text-rose transition-all duration-300">
                   Contatos
                 </a>
