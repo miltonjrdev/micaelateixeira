@@ -21,7 +21,7 @@ export const Navbar = () => {
             <li>
               <Link href="/" passHref>
                 <a
-                  className="block py-2 pr-4 pl-3 text-orange sm:p-0"
+                  className="block py-2 pr-4 pl-3 text-orange rounded md:border-0 md:hover:text-rose md:p-0 hover:text-rose transition-all duration-300"
                   aria-current="page"
                 >
                   Início
@@ -30,7 +30,7 @@ export const Navbar = () => {
             </li>
             <li>
               <Link href="/servicos" passHref>
-                <a className="block py-2 pr-4 pl-3 text-orange rounded hover:bg-orange md:hover:bg-transparent md:border-0 md:hover:text-orange md:p-0">
+                <a className="block py-2 pr-4 pl-3 text-orange rounded md:border-0 md:hover:text-rose md:p-0 hover:text-rose transition-all duration-300">
                   Serviços
                 </a>
               </Link>
@@ -39,7 +39,7 @@ export const Navbar = () => {
               <Link href="#about">
                 <a
                   id="#about"
-                  className="block py-2 pr-4 pl-3 text-orange rounded hover:bg-orange md:hover:bg-transparent md:border-0 md:hover:text-orange md:p-0"
+                  className="block py-2 pr-4 pl-3 text-orange rounded md:border-0 md:hover:text-rose md:p-0 hover:text-rose transition-all duration-300"
                 >
                   Sobre
                 </a>
@@ -47,7 +47,7 @@ export const Navbar = () => {
             </li>
             <li>
               <Link href="/servicos">
-                <a className="block py-2 pr-4 pl-3 text-orange rounded hover:bg-orange md:hover:bg-transparent md:border-0 md:hover:text-orange md:p-0">
+                <a className="block py-2 pr-4 pl-3 text-orange rounded md:border-0 md:hover:text-rose md:p-0 hover:text-rose transition-all duration-300">
                   Depoimentos
                 </a>
               </Link>
@@ -56,7 +56,7 @@ export const Navbar = () => {
               <Link href="#attendances">
                 <a
                   id="#attendances"
-                  className="block py-2 pr-4 pl-3 text-orange rounded hover:bg-orange md:hover:bg-transparent md:border-0 md:hover:text-orange md:p-0"
+                  className="block py-2 pr-4 pl-3 text-orange rounded md:border-0 md:hover:text-rose md:p-0 hover:text-rose transition-all duration-300"
                 >
                   Atendimentos
                 </a>
@@ -64,7 +64,7 @@ export const Navbar = () => {
             </li>
             <li>
               <Link href="/contato" passHref>
-                <a className="block py-2 pr-4 pl-3 text-orange rounded hover:bg-orange md:hover:bg-transparent md:border-0 md:hover:text-orange md:p-0">
+                <a className="block py-2 pr-4 pl-3 text-orange rounded md:border-0 md:hover:text-rose md:p-0 hover:text-rose transition-all duration-300">
                   Contatos
                 </a>
               </Link>
