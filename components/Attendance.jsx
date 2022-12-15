@@ -4,10 +4,10 @@ import React from "react";
 const Attendance = () => {
   return (
     <div id="attendances" className="bg-rose w-full rounded-3xl py-4">
-      <div className="container flex flex-col justify-center items-center mx-auto border border-red-500">
+      <div className="container flex flex-col justify-center items-center mx-auto">
         <h2 className="pb-2 text-amber">ATENDIMENTOS</h2>
           <div className="text-amber flex text-2xl sm:text-6xl text-center">
-            <div className="grid grid-cols-6 gap-5 py-4 space-x-2 border border-red-500">
+            <div className="grid grid-cols-6 gap-5 content-evenly justify-items-end py-16 space-x-2">
               <button className="col-span-2 text-white text-xs bg-bege rounded-full h-10 w-32 hover:bg-orange transition-all duration-300">
                 <a href="">Threading de Sobrancelhas</a>
               </button>
