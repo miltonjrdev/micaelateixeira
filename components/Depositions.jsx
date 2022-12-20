@@ -32,7 +32,7 @@ const Testimonials = () => {
   return (
     <div className="relative mx-auto py-8 px-4 w-full max-w-7xl text-gray-700">
       <p
-        id="depositions"
+        id="depoimentos"
         className="text-rose text-3xl sm:text-6xl py-8 px-0 sm:px-52 text-center sm:text-start"
       >
         DEPOIMENTOS

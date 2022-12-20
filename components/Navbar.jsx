@@ -29,16 +29,16 @@ export const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link href="#attendances" passHref>
+              <Link href="#atendimentos" passHref>
                 <a className="block py-2 pr-4 pl-3 text-orange rounded md:border-0 md:hover:text-rose md:p-0 hover:text-rose transition-all duration-300">
                   Serviços
                 </a>
               </Link>
             </li>
             <li>
-              <Link href="#about">
+              <Link href="#sobre">
                 <a
-                  id="#about"
+                  id="#sobre"
                   className="block py-2 pr-4 pl-3 text-orange rounded md:border-0 md:hover:text-rose md:p-0 hover:text-rose transition-all duration-300"
                 >
                   Sobre
@@ -46,16 +46,16 @@ export const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link href="#depositions">
+              <Link href="#depoimentos">
                 <a className="block py-2 pr-4 pl-3 text-orange rounded md:border-0 md:hover:text-rose md:p-0 hover:text-rose transition-all duration-300">
                   Depoimentos
                 </a>
               </Link>
             </li>
             <li>
-              <Link href="#attendances">
+              <Link href="#atendimentos">
                 <a
-                  id="#attendances"
+                  id="#atendimentos"
                   className="block py-2 pr-4 pl-3 text-orange rounded md:border-0 md:hover:text-rose md:p-0 hover:text-rose transition-all duration-300"
                 >
                   Atendimentos
@@ -63,7 +63,7 @@ export const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link href="#contact" passHref>
+              <Link href="#contato" passHref>
                 <a className="block py-2 pr-4 pl-3 text-orange rounded md:border-0 md:hover:text-rose md:p-0 hover:text-rose transition-all duration-300">
                   Contatos
                 </a>
